@@ -72,9 +72,9 @@ if(KALDI_NATIVE_FBANK_BUILD_TESTS)
   endforeach()
 endif()
 
-install(TARGETS kaldi-native-fbank-core
-  DESTINATION lib
-)
+# install(TARGETS kaldi-native-fbank-core
+#   DESTINATION lib
+# )
 if(KALDI_NATIVE_FBANK_BUILD_PYTHON AND WIN32)
   install(TARGETS kaldi-native-fbank-core
     DESTINATION ..
@@ -87,18 +87,18 @@ if(KALDI_NATIVE_FBANK_BUILD_TESTS)
   )
 endif()
 
-file(MAKE_DIRECTORY
-  DESTINATION
-    ${PROJECT_BINARY_DIR}/include/kaldi-native-fbank/csrc
-)
-file(GLOB_RECURSE all_headers *.h)
+# file(MAKE_DIRECTORY
+#   DESTINATION
+#     ${PROJECT_BINARY_DIR}/include/kaldi-native-fbank/csrc
+# )
+# file(GLOB_RECURSE all_headers *.h)
 
-file(COPY
-  ${all_headers}
-  DESTINATION
-    ${PROJECT_BINARY_DIR}/include/kaldi-native-fbank/csrc
-)
+# file(COPY
+#   ${all_headers}
+#   DESTINATION
+#     ${PROJECT_BINARY_DIR}/include/kaldi-native-fbank/csrc
+# )
 
-install(FILES ${all_headers}
-  DESTINATION include/kaldi-native-fbank/csrc
-)
+# install(FILES ${all_headers}
+#   DESTINATION include/kaldi-native-fbank/csrc
+# )
