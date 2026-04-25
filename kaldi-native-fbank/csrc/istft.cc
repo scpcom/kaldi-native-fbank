@@ -15,7 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-#include "kaldi-native-fbank/csrc/istft.h"
+#include "istft.h"
 
 #include <algorithm>
 #include <cmath>
@@ -23,8 +23,8 @@
 #include <string>
 #include <utility>
 
-#include "kaldi-native-fbank/csrc/feature-window.h"
-#include "kaldi-native-fbank/csrc/rfft.h"
+#include "feature-window.h"
+#include "rfft.h"
 
 namespace knf {
 

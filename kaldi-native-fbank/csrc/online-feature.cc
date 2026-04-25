@@ -19,15 +19,15 @@
 // The content in this file is copied/modified from
 // This file is copied/modified from kaldi/src/feat/online-feature.cc
 
-#include "kaldi-native-fbank/csrc/online-feature.h"
+#include "online-feature.h"
 
 #include <algorithm>
 #include <cstddef>
 #include <utility>
 #include <vector>
 
-#include "kaldi-native-fbank/csrc/feature-window.h"
-#include "kaldi-native-fbank/csrc/log.h"
+#include "feature-window.h"
+#include "log.h"
 
 namespace knf {
 

@@ -16,14 +16,14 @@
  * limitations under the License.
  */
 
-#include "kaldi-native-fbank/csrc/whisper-feature.h"
+#include "whisper-feature.h"
 
 #include <cmath>
 #include <string>
 #include <vector>
 
-#include "kaldi-native-fbank/csrc/log.h"
-#include "kaldi-native-fbank/csrc/mel-computations.h"
+#include "log.h"
+#include "mel-computations.h"
 
 #ifndef M_2PI
 #define M_2PI 6.283185307179586476925286766559005

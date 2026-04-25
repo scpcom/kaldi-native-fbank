@@ -16,13 +16,13 @@
  * limitations under the License.
  */
 
-#include "kaldi-native-fbank/csrc/rfft.h"
+#include "rfft.h"
 
 #include <algorithm>
 #include <cmath>
 #include <vector>
 
-#include "kaldi-native-fbank/csrc/log.h"
+#include "log.h"
 #include "kiss_fftr.h"
 
 namespace knf {

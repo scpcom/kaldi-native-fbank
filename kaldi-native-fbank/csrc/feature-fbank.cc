@@ -18,16 +18,16 @@
 
 // This file is copied/modified from kaldi/src/feat/feature-fbank.cc
 //
-#include "kaldi-native-fbank/csrc/feature-fbank.h"
+#include "feature-fbank.h"
 
 #include <algorithm>
 #include <limits>
 #include <utility>
 #include <vector>
 
-#include "kaldi-native-fbank/csrc/feature-functions.h"
-#include "kaldi-native-fbank/csrc/kaldi-math.h"
-#include "kaldi-native-fbank/csrc/log.h"
+#include "feature-functions.h"
+#include "kaldi-math.h"
+#include "log.h"
 
 namespace knf {
 

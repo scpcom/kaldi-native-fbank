@@ -24,7 +24,7 @@
 #include <string>
 #include <vector>
 
-#include "kaldi-native-fbank/csrc/stft.h"
+#include "stft.h"
 
 namespace knf {
 

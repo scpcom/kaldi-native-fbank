@@ -21,10 +21,10 @@
 #include <sstream>
 #include <string>
 
-#include "kaldi-native-fbank/csrc/online-feature.h"
-#include "kaldi-native-fbank/csrc/feature-fbank.h"
-#include "kaldi-native-fbank/csrc/feature-window.h"
-#include "kaldi-native-fbank/csrc/mel-computations.h"
+#include "online-feature.h"
+#include "feature-fbank.h"
+#include "feature-window.h"
+#include "mel-computations.h"
 
 int main() {
   knf::FbankOptions opts;

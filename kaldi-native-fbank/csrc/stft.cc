@@ -15,15 +15,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-#include "kaldi-native-fbank/csrc/stft.h"
+#include "stft.h"
 
 #include <algorithm>
 #include <cmath>
 #include <sstream>
 #include <string>
 
-#include "kaldi-native-fbank/csrc/feature-window.h"
-#include "kaldi-native-fbank/csrc/rfft.h"
+#include "feature-window.h"
+#include "rfft.h"
 
 namespace knf {
 std::string StftConfig::ToString() const {

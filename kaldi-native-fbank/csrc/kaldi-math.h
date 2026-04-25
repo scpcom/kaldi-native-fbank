@@ -1,4 +1,4 @@
-// kaldi-native-fbank/csrc/kaldi-math.h
+// kaldi-math.h
 //
 // Copyright (c)  2024  Brno University of Technology (authors: Karel Vesely)
 

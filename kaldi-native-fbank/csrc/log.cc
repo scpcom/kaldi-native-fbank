@@ -22,7 +22,7 @@
  * https://github.com/kaldi-asr/kaldi/blob/master/src/base/kaldi-error.cc
  */
 
-#include "kaldi-native-fbank/csrc/log.h"
+#include "log.h"
 
 #ifdef KNF_HAVE_EXECINFO_H
 #include <execinfo.h>  // To get stack trace in error messages.

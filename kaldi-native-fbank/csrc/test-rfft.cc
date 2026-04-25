@@ -20,7 +20,7 @@
 #include <vector>
 
 #include "gtest/gtest.h"
-#include "kaldi-native-fbank/csrc/rfft.h"
+#include "rfft.h"
 
 namespace knf {
 

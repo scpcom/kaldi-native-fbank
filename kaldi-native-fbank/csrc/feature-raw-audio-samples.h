@@ -23,7 +23,7 @@
 #include <sstream>
 #include <vector>
 
-#include "kaldi-native-fbank/csrc/feature-window.h"
+#include "feature-window.h"
 
 namespace knf {
 

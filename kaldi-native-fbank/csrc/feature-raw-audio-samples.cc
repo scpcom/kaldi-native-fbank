@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-#include "kaldi-native-fbank/csrc/feature-raw-audio-samples.h"
+#include "feature-raw-audio-samples.h"
 
 #include <algorithm>
 #include <vector>

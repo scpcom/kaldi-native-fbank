@@ -17,7 +17,7 @@
  */
 
 #include "gtest/gtest.h"
-#include "kaldi-native-fbank/csrc/online-feature.h"
+#include "online-feature.h"
 namespace knf {
 
 TEST(RecyclingVector, TestUnlimited) {

@@ -18,7 +18,7 @@
 
 // This file is copied/modified from kaldi/src/feat/feature-mfcc.cc
 //
-#include "kaldi-native-fbank/csrc/feature-mfcc.h"
+#include "feature-mfcc.h"
 
 #include <algorithm>
 #include <cmath>
@@ -26,10 +26,10 @@
 #include <utility>
 #include <vector>
 
-#include "kaldi-native-fbank/csrc/feature-functions.h"
-#include "kaldi-native-fbank/csrc/feature-window.h"
-#include "kaldi-native-fbank/csrc/kaldi-math.h"
-#include "kaldi-native-fbank/csrc/log.h"
+#include "feature-functions.h"
+#include "feature-window.h"
+#include "kaldi-math.h"
+#include "log.h"
 
 namespace knf {
 

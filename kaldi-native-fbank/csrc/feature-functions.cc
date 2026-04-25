@@ -18,7 +18,7 @@
 
 // This file is copied/modified from kaldi/src/feat/feature-functions.cc
 
-#include "kaldi-native-fbank/csrc/feature-functions.h"
+#include "feature-functions.h"
 
 #include <cstdint>
 #include <vector>

@@ -1,4 +1,4 @@
-// kaldi-native-fbank/csrc/feature-window.h
+// feature-window.h
 //
 // Copyright (c)  2022  Xiaomi Corporation (authors: Fangjun Kuang)
 
@@ -12,7 +12,7 @@
 #include <string>
 #include <vector>
 
-#include "kaldi-native-fbank/csrc/log.h"
+#include "log.h"
 
 namespace knf {
 

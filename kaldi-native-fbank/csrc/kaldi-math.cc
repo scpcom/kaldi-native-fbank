@@ -1,10 +1,10 @@
-// kaldi-native-fbank/csrc/kaldi-math.cc
+// kaldi-math.cc
 //
 // Copyright (c)  2024  Brno University of Technology (authors: Karel Vesely)
 
 // This file is an excerpt from kaldi/src/base/kaldi-math.cc
 
-#include "kaldi-native-fbank/csrc/kaldi-math.h"
+#include "kaldi-math.h"
 
 #if defined(_POSIX_THREAD_SAFE_FUNCTIONS)
 #include <mutex>  // NOLINT

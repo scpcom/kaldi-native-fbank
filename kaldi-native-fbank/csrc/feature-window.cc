@@ -1,10 +1,10 @@
-// kaldi-native-fbank/csrc/feature-window.cc
+// feature-window.cc
 //
 // Copyright (c)  2022  Xiaomi Corporation (authors: Fangjun Kuang)
 
 // This file is copied/modified from kaldi/src/feat/feature-window.cc
 
-#include "kaldi-native-fbank/csrc/feature-window.h"
+#include "feature-window.h"
 
 #include <algorithm>
 #include <cmath>
@@ -12,7 +12,7 @@
 #include <limits>
 #include <vector>
 
-#include "kaldi-native-fbank/csrc/kaldi-math.h"
+#include "kaldi-math.h"
 
 namespace knf {
 

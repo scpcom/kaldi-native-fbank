@@ -27,9 +27,9 @@
 #include <cstdint>
 #include <sstream>
 
-#include "kaldi-native-fbank/csrc/feature-window.h"
-#include "kaldi-native-fbank/csrc/mel-computations.h"
-#include "kaldi-native-fbank/csrc/rfft.h"
+#include "feature-window.h"
+#include "mel-computations.h"
+#include "rfft.h"
 
 namespace knf {
 

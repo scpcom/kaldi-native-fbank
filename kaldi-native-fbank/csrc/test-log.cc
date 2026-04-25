@@ -18,7 +18,7 @@
 
 #if KNF_ENABLE_CHECK
 #include "gtest/gtest.h"
-#include "kaldi-native-fbank/csrc/log.h"
+#include "log.h"
 
 namespace knf {
 

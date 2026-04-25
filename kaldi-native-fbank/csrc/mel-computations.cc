@@ -18,7 +18,7 @@
 
 // This file is copied/modified from kaldi/src/feat/mel-computations.cc
 
-#include "kaldi-native-fbank/csrc/mel-computations.h"
+#include "mel-computations.h"
 
 #include <stdio.h>
 
@@ -26,9 +26,9 @@
 #include <sstream>
 #include <vector>
 
-#include "kaldi-native-fbank/csrc/feature-window.h"
-#include "kaldi-native-fbank/csrc/kaldi-math.h"
-#include "kaldi-native-fbank/csrc/log.h"
+#include "feature-window.h"
+#include "kaldi-math.h"
+#include "log.h"
 
 namespace knf {
 
